@@ -1,0 +1,40 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Customization */
+body {
+  @apply font-sans antialiased;
+}
+
+/* Custom CSS */
+
+ul.note-list li::before {
+  content: " ";
+  @apply w-3 h-3 rounded-full bg-yellow opacity-70 absolute left-0 top-1.5;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-dark-light rounded-md;
+}
+/* ::-webkit-scrollbar-thumb:hover {
+  @apply bg-dark-light rounded-md;
+} */
+
+/* .title::after {
+  content: " ";
+  @apply h-0.5 bg-primary absolute left-0;
+  width: 60%;
+  bottom: -20%;
+}
+
+.repositories-tile {
+  border-top: 1px solid #ebf0f680;
+} */
