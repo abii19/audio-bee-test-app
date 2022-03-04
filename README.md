@@ -2,7 +2,7 @@
 
 ## Demo
 
-(https://react-github-api-test.netlify.app)
+Open [https://react-github-api-test.netlify.app](https://react-github-api-test.netlify.app) to view it in your browser.
 
 ## Installation and Configuration
 - download or clone the repository
